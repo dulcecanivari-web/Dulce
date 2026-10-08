@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 43% 98%;      /* #FDFBF7 */
+    --foreground: 22 26% 34%;      /* #6B4F3F */
+    
+    --card: 40 33% 96%;
+    --card-foreground: 22 26% 34%;
+    
+    --popover: 40 43% 98%;
+    --popover-foreground: 22 26% 34%;
+    
+    --primary: 134 18% 30%;        /* #3F5B45 Verde Autoridade */
+    --primary-foreground: 40 43% 98%;
+    
+    --secondary: 35 38% 75%;      /* #D8C4A8 Secundário Areia */
+    --secondary-foreground: 22 26% 34%;
+    
+    --muted: 35 25% 90%;
+    --muted-foreground: 22 18% 45%;
+    
+    --accent: 19 45% 51%;         /* #B86F4B Destaques Terracota */
+    --accent-foreground: 40 43% 98%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 35 25% 86%;
+    --input: 35 25% 86%;
+    --ring: 134 18% 30%;
+    --radius: 0.75rem;
+  }
+
+  body {
+    background-color: #FDFBF7;
+    color: #6B4F3F;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Lora', Georgia, serif;
+  }
+}
+
+.bg-dulce-base { background-color: #FDFBF7; }
+.bg-dulce-green { background-color: #3F5B45; }
+.bg-dulce-terracotta { background-color: #B86F4B; }
+.bg-dulce-sand { background-color: #D8C4A8; }
+.bg-dulce-mauve { background-color: #A67878; }
+
+.text-dulce-main { color: #6B4F3F; }
+.text-dulce-green { color: #3F5B45; }
+.text-dulce-terracotta { color: #B86F4B; }
+.text-dulce-sand { color: #D8C4A8; }
+.text-dulce-mauve { color: #A67878; }
+
+.border-dulce-sand { border-color: #D8C4A8; }
+.border-dulce-green { border-color: #3F5B45; }

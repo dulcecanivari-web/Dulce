@@ -1,0 +1,394 @@
+{
+  "projectName": "Dulce",
+  "framework": "React 18 + TypeScript + Vite + Tailwind CSS",
+  "updatedAt": 1790848143179,
+  "domain": {
+    "title": "Dulce Canivari | Saúde Intestinal Feminina & Método GAIA",
+    "tagline": "",
+    "description": "Recupera a tua digestão, energia e equilíbrio hormonal. Especialista em saúde intestinal feminina, criadora do Método GAIA e mentora do Clube GAIA.",
+    "dataEntities": [],
+    "features": []
+  },
+  "components": [
+    {
+      "relPath": "src/App.tsx",
+      "name": "App",
+      "imports": [
+        "src/components/Navbar.tsx",
+        "src/components/Hero.tsx",
+        "src/components/GaiaMethod.tsx",
+        "src/components/ClubGaia.tsx",
+        "src/components/MenopausaCourse.tsx",
+        "src/components/FreeMapSection.tsx",
+        "src/components/PersonalizedCare.tsx",
+        "src/components/PodcastSection.tsx",
+        "src/components/CoursesAndShop.tsx",
+        "src/components/About.tsx",
+        "src/components/Testimonials.tsx",
+        "src/components/ContactSection.tsx",
+        "src/components/Footer.tsx",
+        "src/components/CheckoutModal.tsx",
+        "src/components/ui/button.tsx"
+      ],
+      "importedBy": [
+        "src/main.tsx"
+      ],
+      "description": "Componente raiz da aplicação (orquestra layout, estado global e todas as seções)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/About.tsx",
+      "name": "About",
+      "imports": [
+        "src/components/ui/button.tsx"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Seção Sobre nós / História da marca",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/CheckoutModal.tsx",
+      "name": "CheckoutModal",
+      "imports": [
+        "src/components/ui/button.tsx"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Modal/Dialog interativo (CheckoutModal)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/ClubGaia.tsx",
+      "name": "ClubGaia",
+      "imports": [
+        "src/components/ui/button.tsx",
+        "src/components/ui/card.tsx"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Componente React modular (ClubGaia)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/ContactSection.tsx",
+      "name": "ContactSection",
+      "imports": [
+        "src/components/ui/button.tsx",
+        "src/components/ui/card.tsx"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Formulário de contato e canais de atendimento",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/CookieBanner.tsx",
+      "name": "CookieBanner",
+      "imports": [
+        "src/components/ui/button.tsx"
+      ],
+      "importedBy": [],
+      "description": "Faixa de marcas parceiras ou badges promocionais",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/CoursesAndShop.tsx",
+      "name": "CoursesAndShop",
+      "imports": [
+        "src/components/ui/button.tsx",
+        "src/components/ui/card.tsx"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Componente React modular (CoursesAndShop)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/Footer.tsx",
+      "name": "Footer",
+      "imports": [],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Rodapé com links, direitos, redes sociais e informações de contato",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/FreeMapSection.tsx",
+      "name": "FreeMapSection",
+      "imports": [
+        "src/components/ui/button.tsx",
+        "src/components/ui/card.tsx"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Componente React modular (FreeMapSection)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/GaiaMethod.tsx",
+      "name": "GaiaMethod",
+      "imports": [
+        "src/components/ui/button.tsx",
+        "src/components/ui/card.tsx"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Componente React modular (GaiaMethod)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/Hero.tsx",
+      "name": "Hero",
+      "imports": [
+        "src/components/ui/button.tsx"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Seção Hero principal (headline, chamada de ação, banners e destaques do produto)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/LegalModal.tsx",
+      "name": "LegalModal",
+      "imports": [
+        "src/components/ui/button.tsx"
+      ],
+      "importedBy": [],
+      "description": "Modal/Dialog interativo (LegalModal)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/MenopausaCourse.tsx",
+      "name": "MenopausaCourse",
+      "imports": [
+        "src/components/ui/button.tsx",
+        "src/components/ui/card.tsx"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Componente React modular (MenopausaCourse)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/Navbar.tsx",
+      "name": "Navbar",
+      "imports": [
+        "src/components/ui/button.tsx"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Cabeçalho e barra de navegação global com links e ações",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/PersonalizedCare.tsx",
+      "name": "PersonalizedCare",
+      "imports": [
+        "src/components/ui/button.tsx",
+        "src/components/ui/card.tsx"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Componente React modular (PersonalizedCare)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/PodcastSection.tsx",
+      "name": "PodcastSection",
+      "imports": [
+        "src/components/ui/button.tsx",
+        "src/components/ui/card.tsx"
+      ],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Componente React modular (PodcastSection)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/StartHere.tsx",
+      "name": "StartHere",
+      "imports": [
+        "src/components/ui/card.tsx",
+        "src/components/ui/button.tsx"
+      ],
+      "importedBy": [],
+      "description": "Componente React modular (StartHere)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/Testimonials.tsx",
+      "name": "Testimonials",
+      "imports": [],
+      "importedBy": [
+        "src/App.tsx"
+      ],
+      "description": "Depoimentos de clientes e prova social",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/components/ui/badge.tsx",
+      "name": "badge",
+      "imports": [
+        "src/lib/utils.ts"
+      ],
+      "importedBy": [],
+      "description": "Componente base de UI reutilizável (badge)",
+      "isUiBase": true
+    },
+    {
+      "relPath": "src/components/ui/button.tsx",
+      "name": "button",
+      "imports": [
+        "src/lib/utils.ts"
+      ],
+      "importedBy": [
+        "src/App.tsx",
+        "src/components/About.tsx",
+        "src/components/CheckoutModal.tsx",
+        "src/components/ClubGaia.tsx",
+        "src/components/ContactSection.tsx",
+        "src/components/CookieBanner.tsx",
+        "src/components/CoursesAndShop.tsx",
+        "src/components/FreeMapSection.tsx",
+        "src/components/GaiaMethod.tsx",
+        "src/components/Hero.tsx",
+        "src/components/LegalModal.tsx",
+        "src/components/MenopausaCourse.tsx",
+        "src/components/Navbar.tsx",
+        "src/components/PersonalizedCare.tsx",
+        "src/components/PodcastSection.tsx",
+        "src/components/StartHere.tsx"
+      ],
+      "description": "Componente base de UI reutilizável (button)",
+      "isUiBase": true
+    },
+    {
+      "relPath": "src/components/ui/card.tsx",
+      "name": "card",
+      "imports": [
+        "src/lib/utils.ts"
+      ],
+      "importedBy": [
+        "src/components/ClubGaia.tsx",
+        "src/components/ContactSection.tsx",
+        "src/components/CoursesAndShop.tsx",
+        "src/components/FreeMapSection.tsx",
+        "src/components/GaiaMethod.tsx",
+        "src/components/MenopausaCourse.tsx",
+        "src/components/PersonalizedCare.tsx",
+        "src/components/PodcastSection.tsx",
+        "src/components/StartHere.tsx"
+      ],
+      "description": "Componente base de UI reutilizável (card)",
+      "isUiBase": true
+    },
+    {
+      "relPath": "src/components/ui/input.tsx",
+      "name": "input",
+      "imports": [
+        "src/lib/utils.ts"
+      ],
+      "importedBy": [],
+      "description": "Componente base de UI reutilizável (input)",
+      "isUiBase": true
+    },
+    {
+      "relPath": "src/lib/supabase.ts",
+      "name": "supabase",
+      "imports": [],
+      "importedBy": [
+        "src/services/paymentService.ts"
+      ],
+      "description": "Componente React modular (supabase)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/lib/utils.ts",
+      "name": "utils",
+      "imports": [],
+      "importedBy": [
+        "src/components/ui/badge.tsx",
+        "src/components/ui/button.tsx",
+        "src/components/ui/card.tsx",
+        "src/components/ui/input.tsx"
+      ],
+      "description": "Componente React modular (utils)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/main.tsx",
+      "name": "main",
+      "imports": [
+        "src/App.tsx"
+      ],
+      "importedBy": [],
+      "description": "Host de montagem React DOM da SPA (#root)",
+      "isUiBase": false
+    },
+    {
+      "relPath": "src/services/paymentService.ts",
+      "name": "paymentService",
+      "imports": [
+        "src/lib/supabase.ts"
+      ],
+      "importedBy": [],
+      "description": "Componente React modular (paymentService)",
+      "isUiBase": false
+    }
+  ],
+  "structure": [
+    ".codein/context.json",
+    ".codein/history.json",
+    "index.html",
+    "package-lock.json",
+    "package.json",
+    "postcss.config.js",
+    "src/App.tsx",
+    "src/components/About.tsx",
+    "src/components/CheckoutModal.tsx",
+    "src/components/ClubGaia.tsx",
+    "src/components/ContactSection.tsx",
+    "src/components/CookieBanner.tsx",
+    "src/components/CoursesAndShop.tsx",
+    "src/components/Footer.tsx",
+    "src/components/FreeMapSection.tsx",
+    "src/components/GaiaMethod.tsx",
+    "src/components/Hero.tsx",
+    "src/components/LegalModal.tsx",
+    "src/components/MenopausaCourse.tsx",
+    "src/components/Navbar.tsx",
+    "src/components/PersonalizedCare.tsx",
+    "src/components/PodcastSection.tsx",
+    "src/components/StartHere.tsx",
+    "src/components/Testimonials.tsx",
+    "src/components/ui/badge.tsx",
+    "src/components/ui/button.tsx",
+    "src/components/ui/card.tsx",
+    "src/components/ui/input.tsx",
+    "src/index.css",
+    "src/lib/supabase.ts",
+    "src/lib/utils.ts",
+    "src/main.tsx",
+    "src/services/paymentService.ts",
+    "supabase/functions/payment-callback/index.ts",
+    "supabase/functions/payment-request/index.ts",
+    "supabase/schema.sql",
+    "tailwind.config.js",
+    "tsconfig.json",
+    "vite.config.ts"
+  ]
+}
